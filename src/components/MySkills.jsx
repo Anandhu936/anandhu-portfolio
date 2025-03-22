@@ -3,7 +3,7 @@ import React from "react";
 const MySkills = () => {
   return (
     <div id="Skills" className="flex justify-center ">
-      <div className="w-[1100px] border-2 border-[#2a1ada]  pt-5 pl-5 pr-5 pb-16 rounded-md shadow-[0_0_20px_#2a1ada] m-10 lg:m-0 ">
+      <div className="w-[1100px] border-2 border-[#2a1ada]  pt-2 lg:pt-5 pl-2 lg:pl-5 pr-2 lg:pr-5 pb-3 lg:pb-16 rounded-md shadow-[0_0_20px_#2a1ada] m-10 lg:m-0 ">
         <h1 className="text-center text-4xl text-[#7cf03d] underline decoration-[[#7cf03d]] underline-offset-12 mt-8 mb-[60px] lg:mb-[150px]"> My Skills </h1>
         <div className="container grid grid-cols-2 lg:grid-cols-3 gap-5 mt-2 lg:mt-8">
           <di className="flex flex-col justify-center items-center ">

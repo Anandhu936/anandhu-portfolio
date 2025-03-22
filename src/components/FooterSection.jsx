@@ -3,8 +3,8 @@ import React from "react";
 const FooterSection = () => {
   return (
     <div className="flex flex-col justify-center items-center border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-gray-600">
-      <nav className="flex justify-between items-center px-10 lg:px-20 py-4">
-      <ul className="mx-24 p-4 grid grid-cols-5 font-semibold  md:mx-0  md:flex gap-15   justify-items-center">
+      <nav className="flex justify-between items-center  lg:px-20 py-4">
+      <ul className="mx-10 lg:mx-24 p-4 grid grid-cols-5 font-semibold  md:mx-0  md:flex gap-10   justify-items-center">
           <a href="#Home">
             <li className="text-white hover:text-green-500 text-lg lg:text-2xl transition-all duration-300 p-1 md:p-0">
               Home
