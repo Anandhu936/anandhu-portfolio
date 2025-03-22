@@ -3,13 +3,13 @@ import React from "react";
 const AboutSection = () => {
   return (
     <div id="About" className=" flex justify-center ">
-      <div className="w-full xl:w-[1200px] pt-[40px] lg:pt-[80px] pb-[20px] lg:pb-[100px] mx-8  rounded-lg">
+      <div className="w-full xl:w-[1200px] pt-[40px] lg:pt-[80px] pb-[0px] lg:pb-[100px] mx-8  rounded-lg">
         <h1 className="text-4xl flex justify-center text-blue-500 underline decoration-blue-800 underline-offset-8">About</h1>
         <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 mt-0 lg:mt-[80px] p-5">
           <div className="flex justify-center">
             <img
               className="w-60 lg:w-80 h-50 lg:h-80 border-3 border-black  rounded-md lg:opacity-80 "
-              src="/images/my.jpg"
+              src="anandhu-portfolio/images/my.jpg"
               alt=""
             />
           </div>

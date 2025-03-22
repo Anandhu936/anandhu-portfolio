@@ -9,7 +9,7 @@ const HeroSection = () => {
             <div className="flex justify-center  ">
               <img
                 className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
-                src="/images/My-image-new.png"
+                src="anandhu-portfolio/images/my-image-new.png"
                 alt="my image"
               />
             </div>
