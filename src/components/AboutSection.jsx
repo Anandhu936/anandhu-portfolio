@@ -9,7 +9,7 @@ const AboutSection = () => {
           <div className="flex justify-center">
             <img
               className="w-60 lg:w-80 h-50 lg:h-80 border-3 border-black  rounded-md lg:opacity-80 "
-              src="anandhu-portfolio/images/my.jpg"
+              src="https://anandhu936.github.io/anandhu-portfolio/images/my.jpg"
               alt=""
             />
           </div>
