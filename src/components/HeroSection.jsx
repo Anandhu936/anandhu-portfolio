@@ -22,9 +22,11 @@ const HeroSection = () => {
                 Frontend Developer
               </p>
               <div className="flex gap-[20px] mt-[10px] lg:mt-0">
-                <button className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all">
+                <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all" 
+                href="https://anandhu936.github.io/anandhu-portfolio/assets/My-Resume.pdf" target="_blank"
+                >
                   Download CV
-                </button>
+                </a>
                 <button className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all">
                   Contact Info
                 </button>
