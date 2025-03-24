@@ -6,7 +6,7 @@ const HeroSection = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "My-Resume.pdf";
+    link.download = "My-Resume.png";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
