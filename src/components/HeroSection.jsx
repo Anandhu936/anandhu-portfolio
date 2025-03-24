@@ -1,6 +1,16 @@
 import React from "react";
 import 'boxicons' 
+
 const HeroSection = () => {
+  const resumeUrl = "https://anandhu936.github.io/anandhu-portfolio/images/my-resume.png";
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "My-Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <div id="Home" className="flex justify-center">
@@ -23,7 +33,9 @@ const HeroSection = () => {
               </p>
               <div className="flex gap-[20px] mt-[10px] lg:mt-0">
                 <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all" 
-                href="https://anandhu936.github.io/anandhu-portfolio/assets/My-Resume.pdf" target="_blank"
+                 onClick={handleDownload}
+                 href="#"
+                 target="_blank"
                 >
                   Download CV
                 </a>
