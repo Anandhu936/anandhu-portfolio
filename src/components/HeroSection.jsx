@@ -2,11 +2,11 @@ import React from "react";
 import 'boxicons' 
 
 const HeroSection = () => {
-  const resumeUrl = "https://anandhu936.github.io/anandhu-portfolio/images/my-resume.png";
+  const resumeUrl = "https://anandhu936.github.io/anandhu-portfolio/images/My-Resume.pdf";
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "My-Resume.png";
+    link.download = "My-Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 ">
             <div className="flex justify-center  ">
               <img
-                className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
+                className="rounded-full w-60 lg:w-[110] lg-60 lg:h-[110] lg:opacity-[80] border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-[20]"
                 src="https://anandhu936.github.io/anandhu-portfolio/images/my-image-new.png"
                 alt="my image"
               />
@@ -34,8 +34,7 @@ const HeroSection = () => {
               <div className="flex gap-[20px] mt-[10px] lg:mt-0">
                 <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all" 
                  onClick={handleDownload}
-                 href="#"
-                 target="_blank"
+              
                 >
                   Download CV
                 </a>
