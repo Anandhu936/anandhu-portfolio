@@ -42,7 +42,7 @@ const HeroSection = () => {
                   Contact Info
                 </a>
               </div>
-              <div className="flex gap-5 mt-2">
+              <div className="flex gap-5 mt-[20px] lg:mt-[15px]">
                 <a
                   href="https://www.linkedin.com/in/anandhu-unnimadhavan-b0b65314b/"
                   target="_blank"

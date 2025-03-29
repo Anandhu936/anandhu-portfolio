@@ -15,7 +15,7 @@ function App() {
           <div className="mt-[40px] lg:mt-[150px]">
           <AboutSection></AboutSection>
           </div>
-          <div className="mt-[40px] lg:mt-[150px] mb-40px lg:mb-[120px]">
+          <div className="mt-[40px] lg:mt-[150px] mb-[40px] lg:mb-[120px]">
             <MySkills></MySkills>
           </div>
           <div className="mb-[40px] lg:mb-[140px]">

@@ -26,7 +26,7 @@ const ContactSection = () => {
     }
   };
   return (
-    <div id="Contact" className="w-full px-[10%] py-10 scroll-mt-20">
+    <div id="Contact" className="w-full px-[10%]  scroll-mt-20">
       <p className=" text-center mb-2 text-sm lg:text-lg text-white">
         Contact with me
       </p>
