@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <>
       <div id="Home" className="flex justify-center">
-        <div className="w-full xl:w-[1200px]">
+        <div className="w-full xl:w-[1200px] mx-8 lg:mx-0">
           <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 ">
             <div className="flex justify-center  ">
               <img
@@ -38,9 +38,9 @@ const HeroSection = () => {
                 >
                   Download CV
                 </a>
-                <button className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all">
+                <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all"  href="#Contact">
                   Contact Info
-                </button>
+                </a>
               </div>
               <div className="flex gap-5 mt-2">
                 <a

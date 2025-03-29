@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-gray-600">
       <nav className="flex justify-between items-center px-10 md:px-20 py-4">
-        <span className="text-2xl text-white hover:text-green-500 font-bold tracking-wide cursor-pointer">
+        <span className="lg:text-[24px] text-[14px] text-white hover:text-green-500 font-bold tracking-wide cursor-pointer">
           Portfolio
         </span>
         <button
@@ -18,30 +18,30 @@ const Navbar = () => {
         >
           {isOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
-        <ul className="mx-24 p-4  font-semibold  md:mx-0 hidden md:flex gap-6">
+        <ul className="mx-24 p-4  font-semibold  md:mx-0 hidden md:flex gap-8">
           <a href="#Home">
-            <li className="text-white hover:text-green-500 text-2xl transition-all duration-300 p-1 md:p-0">
+            <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
               Home
             </li>
           </a>
           <a href="#About">
-            <li className=" text-white hover:text-green-500 text-2xl transition-all duration-300 p-1 md:p-0">
-              About
+            <li className=" text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
+              About me
             </li>
           </a>
           <a href="#Skills">
-            <li className="text-white hover:text-green-500 text-2xl transition-all duration-300 p-1 md:p-0">
+            <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
               Skills
             </li>
           </a>
-          {/* <a href="#Work">
-            <li className="text-white hover:text-green-500 text-2xl transition-all duration-300 p-1 md:p-0">
-              Work
+          <a href="#Work">
+            <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
+             My work
             </li>
-          </a> */}
+          </a>
           <a href="#Contact">
-            <li className="text-white hover:text-green-500 text-2xl transition-all duration-300 p-1 md:p-0">
-              Contact
+            <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
+              Contact me
             </li>
 
           </a>
@@ -56,7 +56,7 @@ const Navbar = () => {
       >
         <div className="border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-gray-600">
           <nav className="flex justify-between items-center px-10 md:px-20 py-4">
-            <span className="text-2xl text-white hover:text-green-500 font-bold tracking-wide cursor-pointer">
+            <span className="lg:text-[20px] text-[14px] text-white hover:text-green-500 font-bold tracking-wide cursor-pointer">
               Portfolio
             </span>
             <button className="cursor-pointer text-white" onClick={() => setIsOpen(false)}>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </a>
           <a href="/#About">
             <li className=" text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-              About
+              About me
             </li>
           </a>
           <a href="/#Skills">
@@ -80,14 +80,14 @@ const Navbar = () => {
               Skills
             </li>
           </a>
-          {/* <a href="/#Work">
+          <a href="/#Work">
             <li className="text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-              Work
+             My work
             </li>
-          </a> */}
+          </a>
           <a href="/#Contact">
             <li className="text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-              Contact
+              Contact me
             </li>
 
           </a>
