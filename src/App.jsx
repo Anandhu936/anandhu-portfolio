@@ -4,6 +4,7 @@ import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
 import MySkills from "./components/MySkills";
 import Navbar from "./components/Navbar";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <div className="mt-[40px] lg:mt-[150px] mb-[40px] lg:mb-[120px]">
             <MySkills></MySkills>
           </div>
+          <div className="mb-[40px] lg:mb-[140px]"><WorkExperience></WorkExperience></div>
           <div className="mb-[40px] lg:mb-[140px]">
           <ContactSection></ContactSection>
           </div>

@@ -1,0 +1,72 @@
+import React from "react";
+
+const WorkExperience = () => {
+  return (
+    <div className=" w-full px-[10%]">
+      <h1 className="flex justify-center text-3xl lg:text-5xl text-white mb-[40px] lg:mb-[60px] underline underline-offset-8">
+        Work Experience
+      </h1>
+      <div className="grid grid-cols lg:grid-cols-3 gap-14">
+        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+          <img
+            className="img-fluid"
+            src="https://anandhu936.github.io/anandhu-portfolio/images/coupon-generator.png"
+            alt=""
+          />
+          <div className="mt-4">
+            <a
+              href="https://www.paritydeals.com/coupon-generator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <p className="text-center text-2xl text-white hover:text-green-500">
+                Coupon Generator
+              </p>
+            </a>
+          </div>
+        </div>
+        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+          <img
+            className="img-fluid"
+            src="https://anandhu936.github.io/anandhu-portfolio/images/buying-power-calculator.png"
+            alt=""
+          />
+          <div className="mt-4">
+            <a
+              href="https://www.paritydeals.com/buying-power-calculator/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <p className="text-center text-2xl text-white hover:text-green-500">
+                Buying Power Calculator
+              </p>
+            </a>
+          </div>
+        </div>
+        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+          <img
+            className="img-fluid"
+            src="https://anandhu936.github.io/anandhu-portfolio/images/saas-price-calculator.png"
+            alt=""
+          />
+          <div className="mt-4">
+            <a
+              href="https://www.paritydeals.com/saas-pricing-calculator"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <p className="text-center text-2xl text-white hover:text-green-500">
+                Saas Price Calculator
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default WorkExperience;
