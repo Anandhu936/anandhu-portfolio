@@ -4,7 +4,7 @@ const AboutSection = () => {
   return (
     <div id="About" className=" flex justify-center ">
       <div className="w-full xl:w-[1200px] pt-[10px] lg:pt-[80px] pb-[0px] lg:pb-[100px] mx-8 lg:mx-0  rounded-lg">
-        <h1 className="text-4xl flex justify-center text-blue-500 underline decoration-blue-800 underline-offset-8">About</h1>
+        <h1 className="text-3xl lg:text-5xl flex justify-center text-blue-500 underline decoration-blue-800 underline-offset-8">About</h1>
         <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 mt-[30px] lg:mt-[80px] ">
           <div className="flex justify-center">
             <img

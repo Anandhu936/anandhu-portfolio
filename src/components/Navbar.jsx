@@ -34,9 +34,9 @@ const Navbar = () => {
               Skills
             </li>
           </a>
-          <a href="#Work">
+          <a href="#Experience">
             <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
-             My work
+             My Experience
             </li>
           </a>
           <a href="#Contact">
@@ -82,7 +82,7 @@ const Navbar = () => {
           </a>
           <a href="/#Work">
             <li className="text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-             My work
+             My Experience
             </li>
           </a>
           <a href="/#Contact">

@@ -4,7 +4,7 @@ const FooterSection = () => {
   return (
     <div className="flex flex-col justify-center items-center border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-gray-600">
       <nav className="flex justify-between items-center  lg:px-20 py-4">
-      <ul className="mx-2 lg:mx-24 p-4 grid grid-cols-5 font-semibold  md:mx-0  md:flex gap-1 lg:gap-10   justify-items-center">
+        <ul className=" lg:mx-24 p-2 grid grid-cols-5 font-semibold  md:mx-0  md:flex gap-1 lg:gap-10   justify-items-center">
           <a href="#Home">
             <li className="text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
               Home
@@ -12,7 +12,7 @@ const FooterSection = () => {
           </a>
           <a href="#About">
             <li className=" text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
-              About me
+              About
             </li>
           </a>
           <a href="#Skills">
@@ -20,20 +20,22 @@ const FooterSection = () => {
               Skills
             </li>
           </a>
-          <a href="#Work">
+          <a href="#Experience">
             <li className="text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
-              My work
+              <span className="block md:hidden">Experience</span>
+              <span className="hidden lg:block">My Experience</span>
             </li>
           </a>
           <a href="#Contact">
             <li className="text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
-              Contact me
+              Contact
             </li>
-
           </a>
         </ul>
       </nav>
-      <p className="mb-5 text-white text-sm">Copyright &#169; 2025 Anandhu . All Right Reserved.</p>
+      <p className="mb-5 text-white text-sm">
+        Copyright &#169; 2025 Anandhu . All Right Reserved.
+      </p>
     </div>
   );
 };
