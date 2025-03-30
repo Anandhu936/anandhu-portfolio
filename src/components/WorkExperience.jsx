@@ -7,9 +7,9 @@ const WorkExperience = () => {
         Work Experience
       </h1>
       <div className="grid grid-cols lg:grid-cols-3 gap-14">
-        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+        <div className="border-2 border-[#e9d713] p-10 rounded-2xl shadow-[0_0_20px_#e9d713]">
           <img
-            className="img-fluid"
+            className="h-[400px] w-[100%]"
             src="https://anandhu936.github.io/anandhu-portfolio/images/coupon-generator.png"
             alt=""
           />
@@ -20,15 +20,15 @@ const WorkExperience = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              <p className="text-center text-2xl text-white hover:text-green-500">
+              <p className="text-center text-2xl text-white hover:text-green-500 underline underline-offset-4">
                 Coupon Generator
               </p>
             </a>
           </div>
         </div>
-        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+        <div className="border-2 border-[#e9d713] p-10 rounded-2xl shadow-[0_0_20px_#e9d713]">
           <img
-            className="img-fluid"
+            className="h-[400px] w-[100%]"
             src="https://anandhu936.github.io/anandhu-portfolio/images/buying-power-calculator.png"
             alt=""
           />
@@ -39,15 +39,15 @@ const WorkExperience = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              <p className="text-center text-2xl text-white hover:text-green-500">
+              <p className="text-center text-2xl text-white hover:text-green-500 underline underline-offset-4">
                 Buying Power Calculator
               </p>
             </a>
           </div>
         </div>
-        <div className="border-2 border-[#e9d713] p-5 rounded-2xl shadow-[0_0_20px_#e9d713]">
+        <div className="border-2 border-[#e9d713] p-10 rounded-2xl shadow-[0_0_20px_#e9d713]">
           <img
-            className="img-fluid"
+            className="h-[400px] w-[100%]"
             src="https://anandhu936.github.io/anandhu-portfolio/images/saas-price-calculator.png"
             alt=""
           />
@@ -58,7 +58,7 @@ const WorkExperience = () => {
               rel="noopener noreferrer"
             >
               {" "}
-              <p className="text-center text-2xl text-white hover:text-green-500">
+              <p className="text-center text-2xl text-white hover:text-green-500 underline underline-offset-4">
                 Saas Price Calculator
               </p>
             </a>
