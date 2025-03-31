@@ -26,7 +26,7 @@ const Navbar = () => {
           </a>
           <a href="#About">
             <li className=" text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
-              About me
+              About
             </li>
           </a>
           <a href="#Skills">
@@ -41,7 +41,7 @@ const Navbar = () => {
           </a>
           <a href="#Contact">
             <li className="text-white hover:text-green-500 lg:text-[20px] text-[14px] transition-all duration-300 p-1 md:p-0">
-              Contact me
+              Contact 
             </li>
 
           </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
           </a>
           <a href="/#About">
             <li className=" text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-              About me
+              About 
             </li>
           </a>
           <a href="/#Skills">
@@ -87,7 +87,7 @@ const Navbar = () => {
           </a>
           <a href="/#Contact">
             <li className="text-white hover:text-green-500 text-md transition-all duration-300 p-1 md:p-0">
-              Contact me
+              Contact 
             </li>
 
           </a>
