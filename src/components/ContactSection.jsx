@@ -47,10 +47,11 @@ const ContactSection = () => {
             name="name"
           />
           <input
-            type="text"
+            type="email"
             placeholder="Enter your email"
             required
-            className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white "
+            pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+            className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white"
             name="email"
           />
         </div>
