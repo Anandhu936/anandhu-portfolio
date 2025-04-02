@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <>
       <div id="Home" className="flex justify-center">
-        <div className="w-full xl:w-[1200px] mx-8 lg:mx-0">
+        <div className="w-full px-[10%]">
           <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 ">
             <div className="flex justify-center  ">
               <img 
