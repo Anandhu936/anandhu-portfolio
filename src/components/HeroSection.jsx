@@ -17,9 +17,9 @@ const HeroSection = () => {
         <div className="w-full xl:w-[1200px] mx-8 lg:mx-0">
           <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 ">
             <div className="flex justify-center  ">
-              <img
+              <img 
                 className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/my-image-new.png"
+                src="https://anandhu936.github.io/anandhu-portfolio/images/hero-img-1.png"
                 alt="my image"
               />
             </div>

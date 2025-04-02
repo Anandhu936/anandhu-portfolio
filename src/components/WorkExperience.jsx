@@ -3,7 +3,7 @@ import React from "react";
 const WorkExperience = () => {
   return (
     <div id="Experience" className=" w-full px-[10%] lg:px-[20%]">
-      <h1 className="flex justify-center text-3xl lg:text-5xl text-white font-bold mb-[40px] lg:mb-[60px]  ">
+      <h1 className="flex justify-center text-3xl lg:text-5xl text-white font-bold mb-[25px] lg:mb-[50px]  ">
         Work Experience
       </h1>
       <div className="grid grid-cols md:grid-cols-2  gap-10 lg:gap-35">
