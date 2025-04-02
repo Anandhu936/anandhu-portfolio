@@ -22,15 +22,15 @@ const FooterSection = () => {
           </a>
           <a href="#Experience">
             <li className="text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
-              <span className="block md:hidden">Experience</span>
-              <span className="hidden lg:block">My Experience</span>
+              Experience
             </li>
           </a>
-          <a href="#Contact">
+          <a href="#Projects">
             <li className="text-white hover:text-green-500 text-[10px] lg:text-[20px] transition-all duration-300 p-0 md:p-0">
-              Contact
+              Projects
             </li>
           </a>
+         
         </ul>
       </nav>
       <p className="mb-5 text-white text-sm">

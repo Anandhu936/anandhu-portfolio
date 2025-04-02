@@ -2,6 +2,7 @@ import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import FooterSection from "./components/FooterSection";
 import HeroSection from "./components/HeroSection";
+import MyProject from "./components/MyProject";
 import MySkills from "./components/MySkills";
 import Navbar from "./components/Navbar";
 import WorkExperience from "./components/WorkExperience";
@@ -21,8 +22,12 @@ function App() {
           </div>
           <div className="mb-[40px] lg:mb-[140px]"><WorkExperience></WorkExperience></div>
           <div className="mb-[40px] lg:mb-[140px]">
+            <MyProject></MyProject>
+          </div>
+          <div className="mb-[40px] lg:mb-[140px]">
           <ContactSection></ContactSection>
           </div>
+         
           <FooterSection></FooterSection>
         </div>
       </div>
