@@ -4,7 +4,7 @@ const MyProject = () => {
   return (
     <div id='Projects' className=" flex  justify-center">
       <div className="w-full px-[10%] ">
-        <h1 className="text-2xl lg:text-5xl text-white text-center font-bold mb-[25px] lg:mb-[50px] ">
+        <h1 className="text-3xl lg:text-5xl text-white text-center font-bold mb-[25px] lg:mb-[50px] ">
           {" "}
           Projects
         </h1>

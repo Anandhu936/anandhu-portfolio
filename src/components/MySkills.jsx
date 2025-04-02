@@ -4,7 +4,7 @@ const MySkills = () => {
   return (
     <div id="Skills" className="flex flex-col justify-center w-full px-[10%] ">
       <h1 className="text-center text-3xl lg:text-5xl text-white font-bold  mt-4 lg:mt-8 mb-[25px] lg:mb-[50px]"> My Skills </h1>
-      <div className="border-2 border-[#2a1ada]  pt-3 lg:pt-5 pl-3 lg:pl-5 pr-3 lg:pr-5 pb-8 lg:pb-16 rounded-md shadow-[0_0_20px_#2a1ada]  ">
+      <div className="border-2 border-[#2a1ada]  pt-4 lg:pt-5 pl-3 lg:pl-5 pr-3 lg:pr-5 pb-8 lg:pb-16 rounded-md shadow-[0_0_20px_#2a1ada]  ">
         
         <div className="container grid grid-cols-2 lg:grid-cols-3 gap-5 mt-2 lg:mt-8 lg:mx-10 ">
           <di className="flex flex-col justify-center items-center ">
