@@ -50,7 +50,7 @@ const MyProject = () => {
             <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
               <img
                 className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/pomodoro.png"
+                src="https://anandhu936.github.io/anandhu-portfolio/images/emi.png"
                 alt="pomodoro"
               />
             </div>
@@ -68,14 +68,14 @@ const MyProject = () => {
             </div>
             <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
               <a
-                href="https://github.com/Anandhu936/my-pomodoro"  target="_blank"
+                href="https://github.com/Anandhu936/emi-calculator"  target="_blank"
               rel="noopener noreferrer"
                 className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
               >
                 GitHub
               </a>
               <a
-                href="https://anandhu936.github.io/my-pomodoro/" target="_blank"
+                href="https://anandhu936.github.io/emi-calculator/" target="_blank"
               rel="noopener noreferrer"
                 className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
               >
