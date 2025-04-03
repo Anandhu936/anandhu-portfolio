@@ -18,16 +18,12 @@ const MyProject = () => {
               />
             </div>
             <div className="mt-1 lg:mt-3">
-              <a
-                href="https://www.paritydeals.com/coupon-generator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              
                 {" "}
-                <p className="text-center text-[16px]  lg:text-[24px] text-white hover:text-green-500 ">
+                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
                   Pomodoro
                 </p>
-              </a>
+            
             </div>
             <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
               <a
@@ -55,16 +51,12 @@ const MyProject = () => {
               />
             </div>
             <div className="mt-1 lg:mt-3">
-              <a
-                href="https://www.paritydeals.com/coupon-generator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              
                 {" "}
-                <p className="text-center text-[16px]  lg:text-[24px] text-white hover:text-green-500 ">
+                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
                   Emi calculator
                 </p>
-              </a>
+             
             </div>
             <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
               <a
@@ -87,32 +79,27 @@ const MyProject = () => {
             <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
               <img
                 className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/pomodoro.png"
-                alt="pomodoro"
+                src="https://anandhu936.github.io/anandhu-portfolio/images/militarytime-converter.png"
+                alt="military-time-converter"
               />
             </div>
             <div className="mt-1 lg:mt-3">
-              <a
-                href="https://www.paritydeals.com/coupon-generator"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                <p className="text-center text-[16px]  lg:text-[24px] text-white hover:text-green-500 ">
-                  Military time calculator
+            
+                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
+                  Military time converter
                 </p>
-              </a>
+             
             </div>
             <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
               <a
-                href="https://github.com/Anandhu936/my-pomodoro"  target="_blank"
+                href="https://github.com/Anandhu936/military-time-converter"  target="_blank"
               rel="noopener noreferrer"
                 className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
               >
                 GitHub
               </a>
               <a
-                href="https://anandhu936.github.io/my-pomodoro/" target="_blank"
+                href="https://anandhu936.github.io/military-time-converter/" target="_blank"
               rel="noopener noreferrer"
                 className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
               >
