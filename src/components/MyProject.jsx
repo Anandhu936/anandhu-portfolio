@@ -1,148 +1,94 @@
-import React from 'react'
-
+import React from "react";
+import { Card, CardContent } from "../components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "../components/ui/carousel";
 const MyProject = () => {
+  const items = [
+    {
+      title: "  Pomodoro",
+      img: "https://anandhu936.github.io/anandhu-portfolio/images/pomodoro.png",
+      weburl: " https://anandhu936.github.io/my-pomodoro/",
+      giturl: "https://github.com/Anandhu936/my-pomodoro",
+    },
+    {
+      title: " Military time converter",
+      img: "https://anandhu936.github.io/anandhu-portfolio/images/militarytime-converter.png",
+      weburl: "https://anandhu936.github.io/military-time-converter/",
+      giturl: "https://github.com/Anandhu936/military-time-converter",
+    },
+    {
+      title: " Emi calculator",
+      img: "https://anandhu936.github.io/anandhu-portfolio/images/emi.png",
+      weburl: "https://anandhu936.github.io/emi-calculator/",
+      giturl: "https://github.com/Anandhu936/emi-calculator",
+    },
+    {
+      title: " Gym-website-demo",
+      img: "https://anandhu936.github.io/anandhu-portfolio/images/gym-project.png",
+      weburl: "https://anandhu936.github.io/gym-website/",
+      giturl: "https://github.com/Anandhu936/gym-website",
+    },
+  ];
+
   return (
-    <div id='Projects' className=" flex  justify-center">
+    <div id="Projects" className=" flex  justify-center">
       <div className="w-full px-[10%] ">
         <h1 className="text-3xl lg:text-5xl text-white text-center font-bold mb-[25px] lg:mb-[50px] ">
           {" "}
           Projects
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <div className="border-1 border-white p-2 lg:p-5 rounded-2xl ">
-            <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
-              <img
-                className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/pomodoro.png"
-                alt="pomodoro"
-              />
-            </div>
-            <div className="mt-1 lg:mt-3">
-              
-                {" "}
-                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
-                  Pomodoro
-                </p>
-            
-            </div>
-            <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
-              <a
-                href="https://github.com/Anandhu936/my-pomodoro"  target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://anandhu936.github.io/my-pomodoro/" target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-          <div className="border-1 border-white p-2 lg:p-5 rounded-2xl ">
-            <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
-              <img
-                className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/emi.png"
-                alt="pomodoro"
-              />
-            </div>
-            <div className="mt-1 lg:mt-3">
-              
-                {" "}
-                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
-                  Emi calculator
-                </p>
-             
-            </div>
-            <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
-              <a
-                href="https://github.com/Anandhu936/emi-calculator"  target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://anandhu936.github.io/emi-calculator/" target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-          <div className="border-1 border-white p-2 lg:p-5 rounded-2xl ">
-            <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
-              <img
-                className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/militarytime-converter.png"
-                alt="military-time-converter"
-              />
-            </div>
-            <div className="mt-1 lg:mt-3">
-            
-                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
-                  Military time converter
-                </p>
-             
-            </div>
-            <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
-              <a
-                href="https://github.com/Anandhu936/military-time-converter"  target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://anandhu936.github.io/military-time-converter/" target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
-          <div className="border-1 border-white p-2 lg:p-5 rounded-2xl lg:col-span-1 lg:col-start-2">
-            <div className="h-[150px] md:h-[200px] w-[100%] overflow-hidden">
-              <img
-                className="w-full h-full  rounded-xl"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/gym-project.png"
-                alt="military-time-converter"
-              />
-            </div>
-            <div className="mt-1 lg:mt-3">
-            
-                <p className="text-center text-[16px]  lg:text-[24px] text-white  ">
-                  Gym-website-Demo
-                </p>
-             
-            </div>
-            <div className='mt-2 lg:mt-5 flex justify-center gap-3 mb-2 lg:mb-0'>
-              <a
-                href="https://github.com/Anandhu936/gym-website"  target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                GitHub
-              </a>
-              <a
-                href="https://anandhu936.github.io/gym-website/" target="_blank"
-              rel="noopener noreferrer"
-                className="border-2 border-black rounded-full px-5 py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
-              >
-                Live Demo
-              </a>
-            </div>
-          </div>
+        <div className="flex justify-center">
+        <Carousel className="w-full max-w-xl">
+          <CarouselContent>
+            {items.map((item, index) => (
+              <CarouselItem key={index}>
+                <div className="">
+                  <Card className="bg-[#1f242d] text-white py-0">
+                    <CardContent className="p-1 md:p-4">
+                      <img
+                        src={item.img}
+                        alt={item.title}
+                        className="rounded-lg w-full h-[200px] object-center"
+                      />
+                      <div className="p-4 text-center">
+                        <h2 className="text-xl font-bold mb-4">{item.title}</h2>
+                        <div className="flex justify-center gap-4">
+                          <a
+                            href={item.giturl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-black rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
+                          >
+                            GitHub
+                          </a>
+                          <a
+                            href={item.weburl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="border-2 border-black rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
+                          >
+                            Live Demo
+                          </a>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default MyProject
+export default MyProject;
