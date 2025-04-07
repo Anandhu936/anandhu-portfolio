@@ -64,7 +64,7 @@ const ContactSection = () => {
         ></textarea>
         <button
           type="submit"
-          className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-black/80 border-[0.5px] border-black text-white rounded-full mx-auto hover:text-green-500 duration-500"
+          className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-gray-700 border-[0.5px] border-gray-700 text-white rounded-full mx-auto hover:text-green-500 duration-500"
         >
           Submit Now{" "}
           <box-icon name="right-arrow-alt" color="#FFFFFF"></box-icon>

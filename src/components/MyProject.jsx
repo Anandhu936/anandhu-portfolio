@@ -36,7 +36,7 @@ const MyProject = () => {
   ];
 
   return (
-    <div id="Projects" className=" flex  justify-center">
+    <div id="Projects" className=" flex  justify-center bg-[#1c2028] p-15">
       <div className="w-full px-[10%] ">
         <h1 className="text-3xl lg:text-5xl text-white text-center font-bold mb-[25px] lg:mb-[50px] ">
           {" "}
@@ -48,7 +48,7 @@ const MyProject = () => {
             {items.map((item, index) => (
               <CarouselItem key={index}>
                 <div className="">
-                  <Card className="bg-[#1f242d] text-white py-0">
+                  <Card className="bg-[#0f0f0f] text-white py-0">
                     <CardContent className="p-1 md:p-4">
                       <img
                         src={item.img}
@@ -62,7 +62,7 @@ const MyProject = () => {
                             href={item.giturl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="border-2 border-black rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
+                            className="border-2 border-gray-700 rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all ease-in-out hover:border-gray-500"
                           >
                             GitHub
                           </a>
@@ -70,7 +70,7 @@ const MyProject = () => {
                             href={item.weburl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="border-2 border-black rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all"
+                            className="border-2 border-gray-700 rounded-full px-2 lg:px-5 py-1 lg:py-2 cursor-pointer text-[12px] lg:text-[16px] text-white hover:text-green-500 transition-all ease-in-out hover:border-gray-500"
                           >
                             Live Demo
                           </a>

@@ -19,7 +19,7 @@ const HeroSection = () => {
             <div className="flex justify-center  ">
               <img 
                 className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/hero-img-new.png"
+                src="https://anandhu936.github.io/anandhu-portfolio/images/hero-sec-img.png"
                 alt="my image"
               />
             </div>
@@ -32,13 +32,13 @@ const HeroSection = () => {
                 Frontend Developer
               </p>
               <div className="flex gap-[20px] mt-[10px] lg:mt-0">
-                <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all" 
+                <a className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all ease-in-out" 
                  onClick={handleDownload}
               
                 >
                   Download CV
                 </a>
-                <a className=" border-2 border-black rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all"  href="#Contact">
+                <a className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all ease-in-out"  href="#Contact">
                   Contact Info
                 </a>
               </div>

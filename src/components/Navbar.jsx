@@ -7,7 +7,7 @@ const Navbar = () => {
   
 
   return (
-    <div className="border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-gray-600">
+    <div className="border-2 border-black m-4 rounded-b-2xl rounded-l-2xl rounded-r-2xl bg-[#1c2028]">
       <nav className="flex justify-between items-center px-10 md:px-20 py-4">
         <span className="lg:text-[24px] text-[14px] text-white hover:text-green-500 font-bold tracking-wide cursor-pointer">
           Portfolio
@@ -55,7 +55,7 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-[#1f242d] transition-transform transform ${
+        className={`fixed inset-0 bg-[#1c2028] transition-transform transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden w-full h-full`}
       >
