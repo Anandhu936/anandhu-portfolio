@@ -1,5 +1,6 @@
 import React from "react";
 import 'boxicons' 
+import TextChanger from "./TextChanger";
 
 const HeroSection = () => {
   const resumeUrl = "https://anandhu936.github.io/anandhu-portfolio/images/My-Resume.pdf";
@@ -26,7 +27,7 @@ const HeroSection = () => {
             <div className=" flex flex-col align-middle justify-center items-center gap-0 lg:gap-3 mt-[30px] lg:mt-[70px]   ">
               <p className="text-[14px] lg:text-[24px] text-amber-50 ">Hello , I'm</p>
               <h1 className="text-2xl lg:text-4xl xl:text-5xl text-white font-semibold">
-                Anandhu Unnimadhavan
+               <TextChanger/>
               </h1>
               <p className="text-xl lg:text-4xl  text-green-500">
                 Frontend Developer
