@@ -37,7 +37,7 @@ const MyProject = () => {
 
   return (
     <div id="Projects" className=" flex  justify-center bg-[#1c2028] pt-5 pb-5  lg:p-15">
-      <div className="w-full px-[10%] ">
+      <div className="w-full px-[13%] ">
         <h1 className="text-3xl lg:text-5xl text-white text-center font-bold mb-[25px] lg:mb-[50px] ">
           {" "}
           Projects
