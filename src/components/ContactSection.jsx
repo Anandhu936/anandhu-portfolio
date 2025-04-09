@@ -30,7 +30,7 @@ const ContactSection = () => {
       <p className=" text-center mb-2 text-sm lg:text-lg text-white">
         Contact with me
       </p>
-      <h1 className="text-center text-3xl lg:text-5xl text-white font-bold">
+      <h1 className="text-center text-3xl lg:text-5xl font-bold  bg-gradient-to-r from-yellow-500 via-green-500 to-red-500 bg-clip-text text-transparent ">
         Get in Touch
       </h1>
       <p className="text-center text-sm lg:text-lg max-w-2xl mx-auto mt-5 mb-12 text-white">

@@ -6,8 +6,8 @@ const WorkExperience = () => {
       <h1 className="flex justify-center text-3xl lg:text-5xl text-white font-bold mb-[25px] lg:mb-[50px]  ">
         Work Experience
       </h1>
-      <div className="grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-5">
-        <div className="border-2 border-white hover:border-orange-500 transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
+      <div className="grid grid-cols sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-5">
+        <div className="border-2 border-white hover:border-orange-500 hover:shadow-[0_0_20px_#FFA500] transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
           <img
             className="h-[250px] md:h-[200px] w-[100%] rounded-xl"
             src="https://anandhu936.github.io/anandhu-portfolio/images/coupon-generator.png"
@@ -26,7 +26,7 @@ const WorkExperience = () => {
             </a>
           </div>
         </div>
-        <div className="border-2 border-white hover:border-orange-500 transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
+        <div className="border-2 border-white hover:border-orange-500 hover:shadow-[0_0_20px_#FFA500] transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
           <img
             className="h-[250px] md:h-[200px] w-[100%] rounded-xl"
             src="https://anandhu936.github.io/anandhu-portfolio/images/buying-power-calculator.png"
@@ -45,7 +45,7 @@ const WorkExperience = () => {
             </a>
           </div>
         </div>
-        <div className="border-2 border-white hover:border-orange-500 transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
+        <div className="border-2 border-white hover:border-orange-500 hover:shadow-[0_0_20px_#FFA500] transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
           <img
             className="h-[250px] md:h-[200px] w-[100%] rounded-xl"
             src="https://anandhu936.github.io/anandhu-portfolio/images/saas-price-calculator.png"
@@ -64,7 +64,7 @@ const WorkExperience = () => {
             </a>
           </div>
         </div>
-        <div className="border-2 border-white hover:border-orange-500 transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
+        <div className="border-2 border-white hover:border-orange-500 hover:shadow-[0_0_20px_#FFA500] transition-transform hover:scale-105 p-2 lg:p-5 rounded-lg ">
           <img
             className="h-[250px] md:h-[200px] w-[100%] rounded-xl"
             src="https://anandhu936.github.io/anandhu-portfolio/images/Yt-thumbnails.png"
