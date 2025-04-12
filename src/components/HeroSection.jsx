@@ -1,9 +1,10 @@
 import React from "react";
-import 'boxicons' 
+import "boxicons";
 import TextChanger from "./TextChanger";
-
+import { motion } from "framer-motion";
 const HeroSection = () => {
-  const resumeUrl = "https://anandhu936.github.io/anandhu-portfolio/images/My-Resume.pdf";
+  const resumeUrl =
+    "https://anandhu936.github.io/anandhu-portfolio/images/My-Resume.pdf";
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
@@ -17,29 +18,51 @@ const HeroSection = () => {
       <div id="Home" className="flex justify-center">
         <div className="w-full px-[10%]">
           <div className=" lg:grid lg:grid-cols-2 lg:gap-0 gap-6 ">
-            <div className="flex justify-center  ">
-              <img 
+            <motion.div
+               initial={{ opacity: 0, scale: 0 }}
+               whileInView={{ opacity: 1, scale: 1 }}
+               viewport={{ once: false, amount: 0.3 }}
+               transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.2 }}
+              className="flex justify-center  "
+            >
+              <img
                 className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
                 src="https://anandhu936.github.io/anandhu-portfolio/images/hero-sec-img.png"
                 alt="my image"
               />
-            </div>
-            <div className=" flex flex-col align-middle justify-center items-center gap-0 lg:gap-3 mt-[30px] lg:mt-[70px]   ">
-              <p className="text-[14px] lg:text-[24px] text-amber-50 ">Hello , I'm</p>
+            </motion.div>
+            <motion.div
+               initial={{ opacity: 0, y: -100 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: false, amount: 0.3 }}
+               transition={{
+                 type: "spring",
+                 stiffness: 100,
+                 damping: 5,
+                 delay: 0.8,
+               }}
+              className=" flex flex-col align-middle justify-center items-center gap-0 lg:gap-3 mt-[30px] lg:mt-[70px]   "
+            >
+              <p className="text-[14px] lg:text-[24px] text-amber-50 ">
+                Hello , I'm
+              </p>
               <h1 className="text-2xl lg:text-4xl xl:text-5xl text-white font-semibold">
-               <TextChanger/>
+                <TextChanger />
               </h1>
               <p className="text-xl lg:text-4xl  text-green-500">
                 Frontend Developer
               </p>
               <div className="flex gap-[20px] mt-[10px] lg:mt-0">
-                <a className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all ease-in-out" 
-                 onClick={handleDownload}
-              
+                <a
+                  className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white hover:text-green-500 transition-all ease-in-out"
+                  onClick={handleDownload}
                 >
                   Download CV
                 </a>
-                <a className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all ease-in-out"  href="#Contact">
+                <a
+                  className=" border-2 border-gray-800 hover:border-gray-600 rounded-full px-5 py-2 cursor-pointer text-white   hover:text-green-500 transition-all ease-in-out"
+                  href="#Contact"
+                >
                   Contact Info
                 </a>
               </div>
@@ -78,7 +101,7 @@ const HeroSection = () => {
                   ></box-icon>{" "}
                 </a>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

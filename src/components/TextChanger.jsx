@@ -33,7 +33,7 @@ const TextChanger = () => {
   }, [endValue, isForward, index, texts]);
   
   return (
-    <div className= 'font-sans transition ease duration-300 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font'>{currentText}</div>
+    <div className= 'font-sans transition ease duration-300 bg-gradient-to-r from-blue-400 via-blue-700 to-blue-900 bg-clip-text text-transparent font'>{currentText}</div>
   );
 };
 

@@ -12,22 +12,26 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
-        <div className="mt-[40px] lg:mt-[40px container-xxl">
-          <HeroSection></HeroSection>
-          <div className="mt-[40px] lg:mt-[150px]">
-          <AboutSection></AboutSection>
+        <div className="mt-[40px] lg:mt-[40px] container-xxl">
+          <div className="mb-[40px] lg:mb-[200px] ">
+           <HeroSection></HeroSection>
           </div>
-          <div className="mt-[40px] lg:mt-[150px] mb-[40px] lg:mb-[120px]">
+          
+          <div className="mb-[40px] lg:mb-[200px]">
+            <AboutSection></AboutSection>
+          </div>
+          <div className=" mb-[40px] lg:mb-[200px]">
             <MySkills></MySkills>
           </div>
-          <div className="mb-[40px] lg:mb-[140px]"><WorkExperience></WorkExperience></div>
-          <div className="mb-[40px] lg:mb-[140px]">
+          <div className="mb-[40px] lg:mb-[200px]">
+            <WorkExperience></WorkExperience>
+          </div>
+          <div className="mb-[40px] lg:mb-[200px]">
             <MyProject></MyProject>
           </div>
-          <div className="mb-[40px] lg:mb-[140px]">
-          <ContactSection></ContactSection>
+          <div className="mb-[40px] lg:mb-[200px]">
+            <ContactSection></ContactSection>
           </div>
-         
           <FooterSection></FooterSection>
         </div>
       </div>

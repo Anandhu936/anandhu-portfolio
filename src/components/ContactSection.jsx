@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "boxicons";
-
+import { motion } from "framer-motion";
 const ContactSection = () => {
   const [result, setResult] = useState("");
   const onSubmit = async (event) => {
@@ -27,50 +27,66 @@ const ContactSection = () => {
   };
   return (
     <div id="Contact" className="w-full px-[10%]  scroll-mt-20">
-      <p className=" text-center mb-2 text-sm lg:text-lg text-white">
-        Contact with me
-      </p>
-      <h1 className="text-center text-3xl lg:text-5xl font-bold  bg-gradient-to-r from-yellow-500 via-green-500 to-red-500 bg-clip-text text-transparent ">
-        Get in Touch
-      </h1>
-      <p className="text-center text-sm lg:text-lg max-w-2xl mx-auto mt-5 mb-12 text-white">
-        I'd love to hear from you! if you have any question , comments or
-        feedback . please use the form below
-      </p>
-      <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10 mb-8">
-          <input
-            type="text"
-            placeholder="Enter your name"
+      <motion.div
+        initial={{ opacity: 0, scale: 0 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: false, amount: 0.3 }}
+        transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.4 }}
+      >
+        <p className=" text-center mb-2 text-sm lg:text-lg text-white">
+          Contact with me
+        </p>
+        <h1 className="text-center text-3xl lg:text-5xl font-bold  bg-gradient-to-r from-yellow-500 via-green-500 to-red-500 bg-clip-text text-transparent ">
+          Get in Touch
+        </h1>
+        <p className="text-center text-sm lg:text-lg max-w-2xl mx-auto mt-5 mb-12 text-white">
+          I'd love to hear from you! if you have any question , comments or
+          feedback . please use the form below
+        </p>
+        <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-10 mb-8">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              required
+              className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white "
+              name="name"
+            />
+            <input
+              type="email"
+              placeholder="Enter your email"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
+              className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white"
+              name="email"
+            />
+          </div>
+          <textarea
+            rows="6"
+            placeholder="Enter your message"
             required
-            className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white "
-            name="name"
-          />
-          <input
-            type="email"
-            placeholder="Enter your email"
-            required
-            pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$"
-            className="flex-1 p-3 outline-neutral-50 border-[0.5px] border-gray-400 rounded-md bg-white"
-            name="email"
-          />
-        </div>
-        <textarea
-          rows="6"
-          placeholder="Enter your message"
-          required
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
-          name="message"
-        ></textarea>
-        <button
-          type="submit"
-          className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-gray-700 border-[0.5px] border-gray-700 text-white rounded-full mx-auto hover:text-green-500 duration-500"
-        >
-          Submit Now{" "}
-          <box-icon name="right-arrow-alt" color="#FFFFFF"></box-icon>
-        </button>
-        <p className="mt-4">{result}</p>
-      </form>
+            className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
+            name="message"
+          ></textarea>
+          
+          <p className="mt-4">{result}</p>
+        </form>
+      </motion.div>
+      <motion.button initial={{ opacity: 0, y: -100 }}
+               whileInView={{ opacity: 1, y: 0 }}
+               viewport={{ once: false, amount: 0.3 }}
+               transition={{
+                 type: "spring",
+                 stiffness: 100,
+                 damping: 5,
+                 delay: 0.8,
+               }}
+            type="submit"
+            className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-gray-700 border-[0.5px] border-gray-700 text-white rounded-full mx-auto hover:text-green-500  duration-500" 
+          >
+            Submit Now{" "}
+            <box-icon name="right-arrow-alt" color="#FFFFFF"></box-icon>
+          </motion.button>
     </div>
   );
 };
