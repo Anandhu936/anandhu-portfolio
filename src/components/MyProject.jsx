@@ -58,13 +58,13 @@ const MyProject = () => {
           Projects
         </motion.h1>
         <motion.div
-          initial={{ opacity: 0, scale: 0 }}
-          whileInView={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{
             type: "spring",
-            stiffness: 100,
-            damping: 10,
+            stiffness: 40,
+            damping: 20,
             delay: 0.4,
           }}
           className="flex justify-center"

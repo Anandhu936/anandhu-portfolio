@@ -17,7 +17,7 @@ const MySkills = () => {
         initial={{ opacity: 0, scale: 0 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: false, amount: 0.3 }}
-        transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.2 }}
+        transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.2 }}
         className="border-2 border-[#2a1ada]  pt-4 lg:pt-5 pl-3 lg:pl-5 pr-3 lg:pr-5 pb-8 lg:pb-16 rounded-md shadow-[0_0_20px_#2a1ada]  "
       >
         <div className="container grid grid-cols-2 lg:grid-cols-3 gap-5 mt-2 lg:mt-8 lg:mx-10 ">

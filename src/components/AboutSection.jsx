@@ -29,7 +29,7 @@ const AboutSection = () => {
             transition={{
               type: "spring",
               stiffness: 100,
-              damping: 10,
+              damping: 20,
               delay: 0.6,
             }}
             className="flex justify-center"
@@ -47,7 +47,7 @@ const AboutSection = () => {
             transition={{
               type: "spring",
               stiffness: 100,
-              damping: 5,
+              damping: 25,
               delay: 0.8,
             }}
             className="flex flex-col justify-center"

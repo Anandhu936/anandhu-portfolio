@@ -28,10 +28,15 @@ const ContactSection = () => {
   return (
     <div id="Contact" className="w-full px-[10%]  scroll-mt-20">
       <motion.div
-        initial={{ opacity: 0, scale: 0 }}
-        whileInView={{ opacity: 1, scale: 1 }}
+        initial={{ opacity: 0, y: -100 }}
+        whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
-        transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.4 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 25,
+          delay: 0.8,
+        }}
       >
         <p className=" text-center mb-2 text-sm lg:text-lg text-white">
           Contact with me
@@ -68,25 +73,17 @@ const ContactSection = () => {
             className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
             name="message"
           ></textarea>
-          
+
           <p className="mt-4">{result}</p>
         </form>
+        <button
+          type="submit"
+          className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-gray-700 border-[0.5px] border-gray-700 text-white rounded-full mx-auto hover:text-green-500  duration-500"
+        >
+          Submit Now{" "}
+          <box-icon name="right-arrow-alt" color="#FFFFFF"></box-icon>
+        </button>
       </motion.div>
-      <motion.button initial={{ opacity: 0, y: -100 }}
-               whileInView={{ opacity: 1, y: 0 }}
-               viewport={{ once: false, amount: 0.3 }}
-               transition={{
-                 type: "spring",
-                 stiffness: 100,
-                 damping: 5,
-                 delay: 0.8,
-               }}
-            type="submit"
-            className="py-3 px-8 w-max flex items-center cursor-pointer justify-between gap-2 bg-gray-700 border-[0.5px] border-gray-700 text-white rounded-full mx-auto hover:text-green-500  duration-500" 
-          >
-            Submit Now{" "}
-            <box-icon name="right-arrow-alt" color="#FFFFFF"></box-icon>
-          </motion.button>
     </div>
   );
 };

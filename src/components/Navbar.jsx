@@ -55,7 +55,7 @@ const Navbar = () => {
       
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-[#1c2028] transition-transform transform ${
+        className={`fixed inset-0 bg-[#0f0f0f] transition-transform transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden w-full h-full`}
       >

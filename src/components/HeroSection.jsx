@@ -22,7 +22,7 @@ const HeroSection = () => {
                initial={{ opacity: 0, scale: 0 }}
                whileInView={{ opacity: 1, scale: 1 }}
                viewport={{ once: false, amount: 0.3 }}
-               transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.2 }}
+               transition={{ type: "spring", stiffness: 100, damping: 10, delay: 0.4 }}
               className="flex justify-center  "
             >
               <img
