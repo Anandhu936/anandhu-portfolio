@@ -27,7 +27,7 @@ const HeroSection = () => {
             >
               <img
                 className="rounded-full w-60 lg:w-110 lg-60 lg:h-110 lg:opacity-80 border-2 border-[#fff] shadow-[0_0_20px_#FFF] mt-0 lg:mt-20"
-                src="https://anandhu936.github.io/anandhu-portfolio/images/hero-sec-img.jpg"
+                src="https://anandhu936.github.io/anandhu-portfolio/images/hero-sec-img.png"
                 alt="my image"
               />
             </motion.div>
