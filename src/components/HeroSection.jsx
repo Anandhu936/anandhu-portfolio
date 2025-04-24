@@ -70,7 +70,7 @@ const HeroSection = () => {
                 <a
                   href="https://www.linkedin.com/in/anandhu-unnimadhavan-b0b65314b/"
                   target="_blank"
-                  className="border-2 border-[#7cf03d] px-1.5 pt-1.5 rounded-full "
+                  className="border-2 border-[#7cf03d] hover:border-green-800 px-1.5 pt-1.5 rounded-full "
                 >
                   <box-icon
                     type="logo"
@@ -81,7 +81,7 @@ const HeroSection = () => {
                 <a
                   href="https://github.com/Anandhu936"
                   target="_blank"
-                  className="border-2 border-[#7cf03d] px-1.5 pt-1.5 rounded-full"
+                  className="border-2 border-[#7cf03d] hover:border-green-800 px-1.5 pt-1.5 rounded-full"
                 >
                   <box-icon
                     type="logo"
@@ -92,7 +92,7 @@ const HeroSection = () => {
                 <a
                   href="https://x.com/AnandhuDhoni"
                   target="_blank"
-                  className="border-2 border-[#7cf03d] px-1.5 pt-1.5 rounded-full"
+                  className="border-2 border-[#7cf03d] hover:border-green-800 px-1.5 pt-1.5 rounded-full"
                 >
                   <box-icon
                     name="twitter"
